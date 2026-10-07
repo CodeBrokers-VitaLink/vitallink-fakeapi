@@ -167,7 +167,9 @@
       "unit": null,
       "recordedAt": "2026-10-01T18:00:00Z",
       "origin": "professional",
-      "note": "followUp"
+      "note": "followUp",
+      "providerId": "DR-01",
+      "providerName": "Ana Torres"
     },
     {
       "id": "R-201",
@@ -300,58 +302,99 @@
       "unit": "mmHg",
       "recordedAt": "2026-10-03T14:00:00Z",
       "note": null
+    },
+    {
+      "id": "R-review-P-102",
+      "patientId": "P-102",
+      "type": "note",
+      "value": null,
+      "unit": null,
+      "recordedAt": "2026-10-03T02:20:00Z",
+      "origin": "professional",
+      "note": "followUp",
+      "providerId": "DR-01",
+      "providerName": "Ana Torres"
+    },
+    {
+      "id": "R-review-P-103",
+      "patientId": "P-103",
+      "type": "note",
+      "value": null,
+      "unit": null,
+      "recordedAt": "2026-09-29T14:00:00Z",
+      "origin": "professional",
+      "note": "followUp",
+      "providerId": "DR-01",
+      "providerName": "Ana Torres"
+    },
+    {
+      "id": "R-review-P-104",
+      "patientId": "P-104",
+      "type": "note",
+      "value": null,
+      "unit": null,
+      "recordedAt": "2026-10-03T14:00:00Z",
+      "origin": "professional",
+      "note": "followUp",
+      "providerId": "DR-01",
+      "providerName": "Ana Torres"
     }
   ],
   "interventions": [
     {
       "id": "I-01",
       "alertId": "A-104",
-      "actor": "Lucía Morales",
-      "role": "family",
+      "actor": "Ana Torres",
+      "role": "professional",
       "from": "PENDING",
       "to": "IN_REVIEW",
       "at": "2026-09-29T15:30:00Z",
-      "note": null
+      "note": null,
+      "actorId": "DR-01"
     },
     {
       "id": "I-02",
       "alertId": "A-105",
-      "actor": "Dr. Alejandro Mendoza",
+      "actor": "Ana Torres",
       "role": "professional",
       "from": "PENDING",
       "to": "IN_REVIEW",
       "at": "2026-10-02T17:10:00Z",
-      "note": null
+      "note": null,
+      "actorId": "DR-01"
     },
     {
       "id": "I-03",
       "alertId": "A-105",
-      "actor": "Dr. Sofía Torres",
+      "actor": "Ana Torres",
       "role": "professional",
       "from": "IN_REVIEW",
       "to": "ATTENDED",
       "at": "2026-10-02T18:00:00Z",
-      "note": null
+      "note": null,
+      "actorId": "DR-01"
     },
     {
       "id": "I-04",
       "alertId": "A-106",
-      "actor": "Dr. Alejandro Mendoza",
+      "actor": "Ana Torres",
       "role": "professional",
       "from": "PENDING",
       "to": "IN_REVIEW",
       "at": "2026-10-02T16:10:00Z",
-      "note": null
+      "note": null,
+      "actorId": "DR-01"
     },
     {
       "id": "I-05",
       "alertId": "A-106",
-      "actor": "Dr. Alejandro Mendoza",
+      "actor": "Ana Torres",
       "role": "professional",
       "from": "IN_REVIEW",
       "to": "ATTENDED",
       "at": "2026-10-02T16:30:00Z",
-      "note": null
+      "note": null,
+      "actorId": "DR-01"
     }
   ],
   "caregivers": [
