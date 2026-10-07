@@ -53,7 +53,7 @@
       "familyIds": [
         "FC-02"
       ],
-      "lastRecordAt": null,
+      "lastRecordAt": "2026-10-03T14:00:00Z",
       "outdated": true,
       "familyDisplayName": "Tía Beatriz"
     }
@@ -224,6 +224,78 @@
       "recordedAt": "2026-10-02T17:00:00Z",
       "origin": "manual",
       "note": "Registro de demostración asociado a A-105."
+    },
+    {
+      "id": "R-203",
+      "patientId": "P-102",
+      "type": "glucose",
+      "value": 156,
+      "unit": "mg/dL",
+      "recordedAt": "2026-10-03T02:20:00Z",
+      "note": null
+    },
+    {
+      "id": "R-302",
+      "patientId": "P-103",
+      "type": "oxygen",
+      "value": 97,
+      "unit": "%",
+      "recordedAt": "2026-09-29T14:00:00Z",
+      "note": null
+    },
+    {
+      "id": "R-303",
+      "patientId": "P-103",
+      "type": "glucose",
+      "value": 112,
+      "unit": "mg/dL",
+      "recordedAt": "2026-09-29T14:00:00Z",
+      "note": null
+    },
+    {
+      "id": "R-304",
+      "patientId": "P-103",
+      "type": "bloodPressure",
+      "value": "118/76",
+      "unit": "mmHg",
+      "recordedAt": "2026-09-29T14:00:00Z",
+      "note": null
+    },
+    {
+      "id": "R-401",
+      "patientId": "P-104",
+      "type": "heartRate",
+      "value": 72,
+      "unit": "bpm",
+      "recordedAt": "2026-10-03T14:00:00Z",
+      "note": null
+    },
+    {
+      "id": "R-402",
+      "patientId": "P-104",
+      "type": "oxygen",
+      "value": 98,
+      "unit": "%",
+      "recordedAt": "2026-10-03T14:00:00Z",
+      "note": null
+    },
+    {
+      "id": "R-403",
+      "patientId": "P-104",
+      "type": "glucose",
+      "value": 105,
+      "unit": "mg/dL",
+      "recordedAt": "2026-10-03T14:00:00Z",
+      "note": null
+    },
+    {
+      "id": "R-404",
+      "patientId": "P-104",
+      "type": "bloodPressure",
+      "value": "116/74",
+      "unit": "mmHg",
+      "recordedAt": "2026-10-03T14:00:00Z",
+      "note": null
     }
   ],
   "interventions": [
