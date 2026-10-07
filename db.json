@@ -8,10 +8,12 @@
       "location": "Lima",
       "providerId": "DR-01",
       "familyIds": [
-        "FC-01"
+        "FC-01",
+        "FC-03"
       ],
       "lastRecordAt": "2026-10-03T03:10:00Z",
-      "outdated": false
+      "outdated": true,
+      "familyDisplayName": "Mamá Carmen"
     },
     {
       "id": "P-102",
@@ -24,7 +26,8 @@
         "FC-02"
       ],
       "lastRecordAt": "2026-10-03T02:20:00Z",
-      "outdated": false
+      "outdated": true,
+      "familyDisplayName": "Papá Ernesto"
     },
     {
       "id": "P-103",
@@ -37,7 +40,8 @@
         "FC-01"
       ],
       "lastRecordAt": "2026-09-29T14:00:00Z",
-      "outdated": true
+      "outdated": true,
+      "familyDisplayName": "Abuela Rosaura"
     },
     {
       "id": "P-104",
@@ -50,20 +54,8 @@
         "FC-02"
       ],
       "lastRecordAt": null,
-      "outdated": true
-    },
-    {
-      "id": "P-999",
-      "givenName": "Private",
-      "familyName": "Fixture",
-      "age": 70,
-      "location": "Lima",
-      "providerId": "DR-02",
-      "familyIds": [
-        "FC-99"
-      ],
-      "lastRecordAt": null,
-      "outdated": true
+      "outdated": true,
+      "familyDisplayName": "Tía Beatriz"
     }
   ],
   "alerts": [
@@ -73,7 +65,8 @@
       "severity": "HIGH",
       "status": "PENDING",
       "type": "bloodPressure",
-      "raisedAt": "2026-10-03T01:00:00Z"
+      "raisedAt": "2026-10-03T01:00:00Z",
+      "recordId": "R-100"
     },
     {
       "id": "A-102",
@@ -81,7 +74,8 @@
       "severity": "HIGH",
       "status": "PENDING",
       "type": "oxygen",
-      "raisedAt": "2026-10-03T01:00:00Z"
+      "raisedAt": "2026-10-03T01:00:00Z",
+      "recordId": "R-200"
     },
     {
       "id": "A-103",
@@ -89,7 +83,8 @@
       "severity": "MEDIUM",
       "status": "PENDING",
       "type": "heartRate",
-      "raisedAt": "2026-10-03T02:00:00Z"
+      "raisedAt": "2026-10-03T02:00:00Z",
+      "recordId": "R-106"
     },
     {
       "id": "A-104",
@@ -97,7 +92,8 @@
       "severity": "LOW",
       "status": "IN_REVIEW",
       "type": "followUp",
-      "raisedAt": "2026-09-29T15:00:00Z"
+      "raisedAt": "2026-09-29T15:00:00Z",
+      "recordId": null
     },
     {
       "id": "A-105",
@@ -105,7 +101,8 @@
       "severity": "MEDIUM",
       "status": "ATTENDED",
       "type": "bloodPressure",
-      "raisedAt": "2026-10-02T17:00:00Z"
+      "raisedAt": "2026-10-02T17:00:00Z",
+      "recordId": "R-202"
     },
     {
       "id": "A-106",
@@ -113,15 +110,8 @@
       "severity": "LOW",
       "status": "ATTENDED",
       "type": "followUp",
-      "raisedAt": "2026-10-02T16:00:00Z"
-    },
-    {
-      "id": "A-999",
-      "patientId": "P-999",
-      "severity": "HIGH",
-      "status": "PENDING",
-      "type": "followUp",
-      "raisedAt": "2026-10-03T01:00:00Z"
+      "raisedAt": "2026-10-02T16:00:00Z",
+      "recordId": null
     }
   ],
   "records": [
@@ -194,6 +184,46 @@
       "recordedAt": "2026-09-29T14:00:00Z",
       "origin": "manual",
       "note": null
+    },
+    {
+      "id": "R-100",
+      "patientId": "P-101",
+      "type": "bloodPressure",
+      "value": "165/100",
+      "unit": "mmHg",
+      "recordedAt": "2026-10-03T01:00:00Z",
+      "origin": "manual",
+      "note": "Registro de demostración asociado a A-101."
+    },
+    {
+      "id": "R-200",
+      "patientId": "P-102",
+      "type": "oxygen",
+      "value": 91,
+      "unit": "%",
+      "recordedAt": "2026-10-03T01:00:00Z",
+      "origin": "manual",
+      "note": "Registro de demostración asociado a A-102."
+    },
+    {
+      "id": "R-106",
+      "patientId": "P-101",
+      "type": "heartRate",
+      "value": 118,
+      "unit": "bpm",
+      "recordedAt": "2026-10-03T02:00:00Z",
+      "origin": "manual",
+      "note": "Registro de demostración asociado a A-103."
+    },
+    {
+      "id": "R-202",
+      "patientId": "P-102",
+      "type": "bloodPressure",
+      "value": "150/90",
+      "unit": "mmHg",
+      "recordedAt": "2026-10-02T17:00:00Z",
+      "origin": "manual",
+      "note": "Registro de demostración asociado a A-105."
     }
   ],
   "interventions": [
@@ -204,7 +234,8 @@
       "role": "family",
       "from": "PENDING",
       "to": "IN_REVIEW",
-      "at": "2026-09-29T15:30:00Z"
+      "at": "2026-09-29T15:30:00Z",
+      "note": null
     },
     {
       "id": "I-02",
@@ -213,7 +244,8 @@
       "role": "professional",
       "from": "PENDING",
       "to": "IN_REVIEW",
-      "at": "2026-10-02T17:10:00Z"
+      "at": "2026-10-02T17:10:00Z",
+      "note": null
     },
     {
       "id": "I-03",
@@ -222,7 +254,8 @@
       "role": "professional",
       "from": "IN_REVIEW",
       "to": "ATTENDED",
-      "at": "2026-10-02T18:00:00Z"
+      "at": "2026-10-02T18:00:00Z",
+      "note": null
     },
     {
       "id": "I-04",
@@ -231,7 +264,8 @@
       "role": "professional",
       "from": "PENDING",
       "to": "IN_REVIEW",
-      "at": "2026-10-02T16:10:00Z"
+      "at": "2026-10-02T16:10:00Z",
+      "note": null
     },
     {
       "id": "I-05",
@@ -240,7 +274,78 @@
       "role": "professional",
       "from": "IN_REVIEW",
       "to": "ATTENDED",
-      "at": "2026-10-02T16:30:00Z"
+      "at": "2026-10-02T16:30:00Z",
+      "note": null
+    }
+  ],
+  "caregivers": [
+    {
+      "id": "FC-01",
+      "name": "Lucía Morales",
+      "phone": "000000000",
+      "email": "lucia.morales@example.com",
+      "patientIds": [
+        "P-101",
+        "P-103"
+      ]
+    },
+    {
+      "id": "FC-02",
+      "name": "Daniel Valdés",
+      "phone": "000000000",
+      "email": "daniel.valdes@example.com",
+      "patientIds": [
+        "P-102",
+        "P-104"
+      ]
+    },
+    {
+      "id": "FC-03",
+      "name": "Ana Morales",
+      "phone": "000000000",
+      "email": "ana.morales@example.com",
+      "patientIds": [
+        "P-101"
+      ]
+    }
+  ],
+  "measurementRanges": [
+    {
+      "id": "heartRate",
+      "unit": "bpm",
+      "normalMin": 60,
+      "normalMax": 100,
+      "dangerBelow": null,
+      "dangerFrom": null
+    },
+    {
+      "id": "oxygen",
+      "unit": "%",
+      "normalMin": 95,
+      "normalMax": 100,
+      "dangerAtOrBelow": 92
+    },
+    {
+      "id": "glucose",
+      "unit": "mg/dL",
+      "normalMin": 70,
+      "normalMax": 180,
+      "dangerBelow": 70,
+      "dangerFrom": 300
+    },
+    {
+      "id": "bloodPressure",
+      "unit": "mmHg",
+      "systolic": {
+        "normalMin": 90,
+        "normalMax": 119,
+        "dangerFrom": 180
+      },
+      "diastolic": {
+        "normalMin": 60,
+        "normalMax": 79,
+        "dangerFrom": 120
+      }
     }
   ]
 }
