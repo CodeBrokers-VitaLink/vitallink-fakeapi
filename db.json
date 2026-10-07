@@ -354,7 +354,9 @@
       "name": "Ana Torres",
       "email": "doctor@vitalink.com",
       "password": "Doctor123!",
-      "role": "doctor"
+      "role": "doctor",
+      "phone": "+51 900 000 001",
+      "hospital": "Hospital VitalCare (demostración)"
     },
     {
       "id": "FC-01",
