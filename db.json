@@ -347,5 +347,21 @@
         "dangerFrom": 120
       }
     }
+  ],
+  "users": [
+    {
+      "id": "DR-01",
+      "name": "Ana Torres",
+      "email": "doctor@vitalink.com",
+      "password": "Doctor123!",
+      "role": "doctor"
+    },
+    {
+      "id": "FC-01",
+      "name": "Lucía Morales",
+      "email": "usuario@vitalink.com",
+      "password": "Usuario123!",
+      "role": "family"
+    }
   ]
 }
