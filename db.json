@@ -13,7 +13,8 @@
       ],
       "lastRecordAt": "2026-10-03T03:10:00Z",
       "outdated": true,
-      "familyDisplayName": "Mamá Carmen"
+      "familyDisplayName": "Mamá Carmen",
+      "hospital": "Hospital VitalCare (demostración)"
     },
     {
       "id": "P-102",
@@ -27,7 +28,8 @@
       ],
       "lastRecordAt": "2026-10-03T02:20:00Z",
       "outdated": true,
-      "familyDisplayName": "Papá Ernesto"
+      "familyDisplayName": "Papá Ernesto",
+      "hospital": "Hospital VitalCare (demostración)"
     },
     {
       "id": "P-103",
@@ -41,7 +43,8 @@
       ],
       "lastRecordAt": "2026-09-29T14:00:00Z",
       "outdated": true,
-      "familyDisplayName": "Abuela Rosaura"
+      "familyDisplayName": "Abuela Rosaura",
+      "hospital": "Hospital VitalCare (demostración)"
     },
     {
       "id": "P-104",
@@ -55,7 +58,8 @@
       ],
       "lastRecordAt": "2026-10-03T14:00:00Z",
       "outdated": true,
-      "familyDisplayName": "Tía Beatriz"
+      "familyDisplayName": "Tía Beatriz",
+      "hospital": "Hospital VitalCare (demostración)"
     }
   ],
   "alerts": [
